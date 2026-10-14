@@ -40,3 +40,16 @@ elif pontos <= 3:
     print("Senha média")
 else:
     print("Senha forte")
+
+    print("Dicas para melhorar:")
+
+if len(senha) < 8:
+    print("- use pelo menos 8 caracteres")
+if not tem_maiuscula:
+    print("- adicione uma letra maiúscula")
+if not tem_minuscula:
+    print("- adicione uma letra minúscula")
+if not tem_numero:
+    print("- adicione um número")
+if not tem_simbolo:
+    print("- adicione um símbolo")
